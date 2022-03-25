@@ -33,7 +33,7 @@ limitations under the License.
   </description>
 
   <properties>
-    <hbase.version>${hbase.version.2}</hbase.version>
+    <hbase.version>2.4.10</hbase.version>
   </properties>
 
   <dependencyManagement>
@@ -135,7 +135,7 @@ limitations under the License.
                 false
               </promoteTransitiveDependencies>
               <transformers>
-                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
               </transformers>
               <filters>
                 <filter>
